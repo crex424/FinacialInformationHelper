@@ -1,0 +1,64 @@
+.resource-grid {
+    display: grid;
+    grid-template-columns: (repeat(6, 1fr));
+}
+.resource-summary {
+    grid-column: 2/4;
+    justify-self: center;
+    align-self: center;
+}
+#grid-location-logo {
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.resource-ref{
+    grid-column: 4/5;
+    justify-self: center;
+    align-self: center;
+}
+.resource-map-link{
+    grid-column: 5/6;
+    justify-self: center;
+    align-self: center;
+}
+#content {
+    align-content: center;
+    justify-self: center;
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto; 
+    background-color: #e7e5df;
+}
+.nav_bar{
+    display: flex;
+    background-color: #065f80;
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    width: 100%;
+}
+nav a{
+    text-align: left;
+    text-decoration: none;
+    padding: 60px 65px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0px;
+
+
+}
+nav a:hover {
+    background-color: #158dd4;
+    color: black;
+}
+img#main-logo {
+    max-width: 75%;
+    max-height:75%;
+}
